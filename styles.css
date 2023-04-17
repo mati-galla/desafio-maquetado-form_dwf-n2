@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.email-form {
+  max-width: 450px;
+  min-width: 375px;
+  padding: 38px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-form__label {
+  margin-bottom: 5px;
+}
+
+.email-form__email-input,
+.email-form__message-text {
+  margin-bottom: 36px;
+}
+.email-form__email-input {
+  height: 70px;
+  font-size: 1em;
+  padding-left: 7px;
+}
+
+.email-form__message-text {
+  height: 180px;
+  padding: 7px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7em;
+  resize: none;
+}
+
+.email-form__button {
+  height: 70px;
+  background: #5bceff;
+  border: none;
+  text-align: center;
+  font-size: 1em;
+}
